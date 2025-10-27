@@ -5,8 +5,8 @@
 	import AAdsBanner from '$lib/components/aads/AAdsBanner.svelte'
 	import AAdsMiddleBanner from '$lib/components/aads/AAdsMiddleBanner.svelte'
 	import Coinpoll from '$lib/components/ownads/coinpoll.svelte'
-	import GgBetAds from '$lib/components/ownads/ggbetads.svelte'
-	import PopunderAd from '$lib/components/exoclicks/PopunderAd.svelte'
+	import JuicyAdsBanner from '$lib/components/juicyads/JuicyAdsBanner.svelte'
+	import JuicyAdsPopunder from '$lib/components/juicyads/JuicyAdsPopunder.svelte'
 
 	export let data
 
@@ -244,7 +244,7 @@
 				<Coinpoll />
 			</div>
 			<div class="flex justify-center">
-				<GgBetAds />
+				<JuicyAdsBanner />
 			</div>
 		</div>
 	</div>
@@ -253,8 +253,8 @@
 	<div class="mt-8"></div>
 </main>
 
-<!-- Popunder Ad for Browse Page -->
-<PopunderAd />
+<!-- JuicyAds Popunder for Browse Page -->
+<JuicyAdsPopunder />
 
 <style>
 	.line-clamp-2 {

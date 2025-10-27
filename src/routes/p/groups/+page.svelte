@@ -5,7 +5,7 @@
 	import VisitorAds from '$lib/components/VisitorAds.svelte'
 	import AAdsBanner from '$lib/components/aads/AAdsBanner.svelte'
 	import Coinpoll from '$lib/components/ownads/coinpoll.svelte'
-	import GgBetAds from '$lib/components/ownads/ggbetads.svelte'
+	import JuicyAdsBanner from '$lib/components/juicyads/JuicyAdsBanner.svelte'
 
 	export let data: {
 		grouped: Record<string, { id: number; name: string; slug: string | null }[]>
@@ -239,7 +239,7 @@
 				<Coinpoll />
 			</div>
 			<div class="flex justify-center">
-				<GgBetAds />
+				<JuicyAdsBanner />
 			</div>
 		</div>
 	</div>

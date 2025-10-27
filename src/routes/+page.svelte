@@ -5,8 +5,8 @@
 	import AppInstallBanner from '$lib/components/AppInstallBanner.svelte'
 	import AAdsBanner from '$lib/components/aads/AAdsBanner.svelte'
 	import Coinpoll from '$lib/components/ownads/coinpoll.svelte'
-	import GgBetAds from '$lib/components/ownads/ggbetads.svelte'
-	import PopunderAd from '$lib/components/exoclicks/PopunderAd.svelte'
+	import JuicyAdsBanner from '$lib/components/juicyads/JuicyAdsBanner.svelte'
+	import JuicyAdsPopunder from '$lib/components/juicyads/JuicyAdsPopunder.svelte'
 	export let data
 </script>
 
@@ -66,7 +66,7 @@
 				<Coinpoll />
 			</div>
 			<div class="flex justify-center">
-				<GgBetAds />
+				<JuicyAdsBanner />
 			</div>
 		</div>
 	</div>
@@ -76,6 +76,6 @@
 		<AppInstallBanner />
 	</div>
 
-<!-- Popunder Ad for Homepage -->
-<PopunderAd />
+<!-- JuicyAds Popunder for Homepage -->
+<JuicyAdsPopunder />
 </main>

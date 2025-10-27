@@ -1,8 +1,9 @@
 <script>
 	import { browser } from '$app/environment'
 	import AAdsMiddleBanner from './aads/AAdsMiddleBanner.svelte'
-	import InterstitialAd from './exoclicks/InterstitialAd.svelte'
-	import VideoSliderAd from './exoclicks/VideoSliderAd.svelte'
+	// Temporarily disabled Exoclicks ads - replaced with JuicyAds
+	// import InterstitialAd from './exoclicks/InterstitialAd.svelte'
+	// import VideoSliderAd from './exoclicks/VideoSliderAd.svelte'
 </script>
 
 {#if browser}
@@ -11,7 +12,7 @@
 		<AAdsMiddleBanner />
 	</div>
 
-	<!-- ExoClick Interactive Ads -->
-	<InterstitialAd />
-	<VideoSliderAd />
+	<!-- ExoClick Interactive Ads - Temporarily disabled -->
+	<!-- <InterstitialAd /> -->
+	<!-- <VideoSliderAd /> -->
 {/if}

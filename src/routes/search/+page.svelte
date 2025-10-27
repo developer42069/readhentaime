@@ -2,8 +2,8 @@
 	import VisitorAds from '$lib/components/VisitorAds.svelte'
 	import AAdsBanner from '$lib/components/aads/AAdsBanner.svelte'
 	import Coinpoll from '$lib/components/ownads/coinpoll.svelte'
-	import GgBetAds from '$lib/components/ownads/ggbetads.svelte'
-	import PopunderAd from '$lib/components/exoclicks/PopunderAd.svelte'
+	import JuicyAdsBanner from '$lib/components/juicyads/JuicyAdsBanner.svelte'
+	import JuicyAdsPopunder from '$lib/components/juicyads/JuicyAdsPopunder.svelte'
 	export let data: {
 		query: string
 		comics: {
@@ -264,11 +264,11 @@
 				<Coinpoll />
 			</div>
 			<div class="flex justify-center">
-				<GgBetAds />
+				<JuicyAdsBanner />
 			</div>
 		</div>
 	</div>
 </main>
 
-<!-- Popunder Ad for Search Page -->
-<PopunderAd />
+<!-- JuicyAds Popunder for Search Page -->
+<JuicyAdsPopunder />

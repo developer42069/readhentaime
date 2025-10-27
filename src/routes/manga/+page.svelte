@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms'
 	import { page } from '$app/stores'
-	import PopunderAd from '$lib/components/exoclicks/PopunderAd.svelte'
+	import JuicyAdsPopunder from '$lib/components/juicyads/JuicyAdsPopunder.svelte'
 	import type { ActionData, PageData } from './$types'
 
 	export let data: PageData
